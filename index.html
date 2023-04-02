@@ -6,12 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer sitio de Bootstrap</title>
     <link rel="stylesheet" href="/archivos_iniciales/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css/main.css" class="">
 </head>
 <body>
     <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="/archivos_iniciales/img/logo.jpg" alt="nintendo-logo" width="200">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+         <!--Este boton se activa cuando cambia  e tamaño debido al diseño responsive-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav   ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link"href="#">Summer Pack</a></li>
+                <li class="nav-item"><a class="nav-link"href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link"href="#">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Sign in</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
 
     <!--CARROUSEL-->
-
+    <div class="carousel slide" id="mainSlider" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/archivos_iniciales/img/slide01.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="/archivos_iniciales/img/slide02.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="/archivos_iniciales/img/slide03.jpg" class="d-block w-100" alt="">
+            </div>
+        </div>
+    </div>
     <!--RIBBON-->
 
     <!--SEPARADOR RIBBON-->
@@ -23,8 +54,9 @@
     <!--PLAY NINTENDO-->
 
     <!--FOOTER-->
-    
- <script src="/archivos_iniciales/js/bootstrap.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script> 
- <script src="/archivos_iniciales/js/popper.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="/archivos_iniciales/js/bootstrap.min.js"></script> 
+<script src="/archivos_iniciales/js/popper.js"></script>
+
 </body>
 </html>
+
