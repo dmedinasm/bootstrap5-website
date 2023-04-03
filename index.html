@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer sitio de Bootstrap</title>
     <link rel="stylesheet" href="/archivos_iniciales/css/bootstrap.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css/main.css" class="">
+    <link rel="stylesheet" href="/archivos_iniciales/css/main.css">
 </head>
 <body>
     <!--NAVBAR-->
@@ -44,9 +44,25 @@
         </div>
     </div>
     <!--RIBBON-->
-
+    <div id="ribbon" class="container-fluid">
+        <div id="birthdayarea" class="container w-50 pl-5 rounded"><!--pl 5 es padding left respecto a una unidad de bootstrap-->
+            <div class="row align-items-center">
+                <div class="col-sm p-3">
+                    <img src="/archivos_iniciales/img/image01.png" class="w-75 mx-auto d-block" alt=""><!--las imagenes por defecto son inline, para reconvertirla a bloque se pone como display block-->
+                </div>
+                <div class="col-sm p-3 text-light text-center">
+                    <p class="text-warning h3">Today is</p>
+                    <h4 class="text-shadow h2">Samson's Birthday</h4>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--SEPARADOR RIBBON-->
-
+    <div id="separator-ribbon">
+        <div class="content bg-warning">
+            
+        </div>
+    </div>
     <!--GAMES-->
 
     <!--SEPARADOR AMIBOS-->
