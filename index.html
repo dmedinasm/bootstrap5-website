@@ -7,26 +7,29 @@
     <title>Mi primer sitio de Bootstrap</title>
     <link rel="stylesheet" href="/archivos_iniciales/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="/archivos_iniciales/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="/archivos_iniciales/img/logo.jpg" alt="nintendo-logo" width="200">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-         <!--Este boton se activa cuando cambia  e tamaño debido al diseño responsive-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav   ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link"href="#">Summer Pack</a></li>
-                <li class="nav-item"><a class="nav-link"href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link"href="#">Register</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Sign in</a></li>
-            </ul>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/archivos_iniciales/img/logo.jpg" alt="nintendo-logo" width="200">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <!--Este boton se activa cuando cambia  e tamaño debido al diseño responsive-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav   ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Summer Pack</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sign in</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
     </nav>
 
     <!--CARROUSEL-->
@@ -45,10 +48,12 @@
     </div>
     <!--RIBBON-->
     <div id="ribbon" class="container-fluid">
-        <div id="birthdayarea" class="container w-50 pl-5 rounded"><!--pl 5 es padding left respecto a una unidad de bootstrap-->
+        <div id="birthdayarea" class="container w-50 pl-5 rounded">
+            <!--pl 5 es padding left respecto a una unidad de bootstrap-->
             <div class="row align-items-center">
                 <div class="col-sm p-3">
-                    <img src="/archivos_iniciales/img/image01.png" class="w-75 mx-auto d-block" alt=""><!--las imagenes por defecto son inline, para reconvertirla a bloque se pone como display block-->
+                    <img src="/archivos_iniciales/img/image01.png" class="w-75 mx-auto d-block"
+                        alt=""><!--las imagenes por defecto son inline, para reconvertirla a bloque se pone como display block-->
                 </div>
                 <div class="col-sm p-3 text-light text-center">
                     <p class="text-warning h3">Today is</p>
@@ -73,8 +78,9 @@
                     <div class="card w-100  card-border mb-5">
                         <img src="/archivos_iniciales/img/card01.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
@@ -82,8 +88,9 @@
                     <div class="card w-100  card-border mb-5">
                         <img src="/archivos_iniciales/img/card02.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
@@ -91,8 +98,9 @@
                     <div class="card w-100  card-border mb-5">
                         <img src="/archivos_iniciales/img/card03.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
@@ -140,25 +148,137 @@
                 <img src="/archivos_iniciales/img/figure04.png" alt="" class="w-100 amiibo">
                 <div class="text-center"><span class="amiibo-name h5 p-2">Timmy & Tommy</span></div>
             </div>
-       </div>
-       <div class="row py-5">
-        <div class="col text-center">
-            <a href="#" class="link-dark">
-                <button class="btn btn-warning btn-lg rounded-pill p-3 font-weight-bold">View Amiibo Catalog</button>
-            </a>
         </div>
-        <div id="separator-amiibos-footer">
-            
+        <div class="row py-5">
+            <div class="col text-center">
+                <a href="#" class="link-dark">
+                    <button class="btn btn-warning btn-lg rounded-pill p-3 fw-bold">View Amiibo
+                        Catalog</button>
+                </a>
+            </div>
+            <div id="separator-amiibos-footer">
+            </div>
         </div>
-       </div>
-       
+
     </div>
     <!--PLAY NINTENDO-->
-
+    <div id="play">
+        <div class="container-sm p-5">
+            <div class="row">
+                <h3 class="text-center h1 pb-5">Isabelle and friends on Play Nintendo</h3>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col d-none d-md-block">
+                    <img src="/archivos_iniciales/img/isabelle.png" alt="" class="w-100">
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col p-1">
+                            <!--CARD-->
+                            <div class="card bg-primary text-white">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <img src="/archivos_iniciales/img/ph-01.jpg" class="img-fluid rounded-start"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!--CARD-->
+    
+                        </div>
+                        <div class="col p-1">
+                            <div class="card bg-success text-white">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="/archivos_iniciales/img/ph-02.jpg" class="img-fluid rounded-start"
+                                            alt="...">
+                                    </div>
+                                </div>
+                            </div> <!--CARD-->
+    
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col p-1">
+                            <!--CARD-->
+                            <div class="card bg-danger text-white">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <img src="/archivos_iniciales/img/ph-03.jpg" class="img-fluid rounded-start"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit
+                                                longer.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!--CARD-->
+    
+                        </div>
+                        <div class="col p-1">
+                            <div class="card bg-warning text-white">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="/archivos_iniciales/img/ph-04.jpg" class="img-fluid rounded-start"
+                                            alt="...">
+                                    </div>
+                                </div>
+                            </div> <!--CARD-->
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--FOOTER-->
-<script src="/archivos_iniciales/js/bootstrap.min.js"></script> 
-<script src="/archivos_iniciales/js/popper.js"></script>
-
+    <div id="footer" class="p-5">
+        <div class="container w-50 pt-5">
+            <div class="row row-cols-md-2 justify-content-md-center">
+                <div class="text-center">
+                    <a href="#">
+                        <button class="btn btn-lg rounded-pill btn-warning w-100 p-3 shadow-sm fw-bold">Customer Support</button>
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-md-center py-5">
+                <div class="col text-center font-weight-light">
+                    <p>For Nintendo 3DS systems, use Parental Controls to restrict 3D mode for children 6 and under.</p>
+                    <p>Internet access required for online features. For more info, go to support.nintendo.com.</p>
+                    <p>Games and amiibo accessories sold separately. Figures shown not actual size. Compatibility and functionality of amiibo may vary per game. Visit amiibo.com for specific details on how each amiibo works.</p>
+                    <p>© 2001 - 2020 Nintendo. Nintendo properties are trademarks of Nintendo.</p>
+                </div>
+           </div>
+    </div>
+    <script src="/archivos_iniciales/js/bootstrap.min.js"></script>
+    <script src="/archivos_iniciales/js/popper.js"></script>
 </body>
-</html>
 
+</html>
